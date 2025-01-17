@@ -3,11 +3,11 @@ import Card from 'react-bootstrap/Card';
 
 function BasicExample() {
 	return (
-		<Card style={{ width: '18rem' }}>
+		<Card style={{ width: '18rem' }} className="hover-shadow">
 			<Card.Img variant="top" src="holder.js/100px180" />
 			<Card.Body >
 				<Card.Title className='text-center'>Card Title</Card.Title>
-				<Card.Text>
+				<Card.Text className='text-center ta-justify'>
 					Some quick example text to build on the card title and make up the
 					bulk of the card's content.
 				</Card.Text>
