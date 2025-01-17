@@ -22,52 +22,54 @@ function FormExample() {
 
 	return (
 		<>
-			<h1 className='text-center my-5'>Nous contacter</h1>
+		<div className='vh-100'>
+		<h1 className='text-center my-5'>Nous contacter</h1>
 
-			<Form noValidate validated={validated} onSubmit={handleSubmit} className='my-5 col-10 mx-auto'>
-				<Row className="mb-3">
-					<Form.Group as={Col} md="6" controlId="validationCustom01">
-						<Form.Label>First name</Form.Label>
-						<InputGroup hasValidation>
-							<InputGroup.Text id="inputGroupPrepend">icon</InputGroup.Text>
-							<Form.Control
-								required
-								type="text"
-								placeholder="First name"
-								defaultValue="Mark"
-							/>
-							<Form.Control.Feedback type="invalid">
-								Please choose a username.
-							</Form.Control.Feedback>
-						</InputGroup>
+<Form noValidate validated={validated} onSubmit={handleSubmit} className='my-5 col-10 mx-auto'>
+	<Row className="mb-3">
+		<Form.Group as={Col} md="6" controlId="validationCustom01">
+			<Form.Label>First name</Form.Label>
+			<InputGroup hasValidation>
+				<InputGroup.Text id="inputGroupPrepend"></InputGroup.Text>
+				<Form.Control
+					required
+					type="text"
+					placeholder="First name"
+					defaultValue="Mark"
+				/>
+				<Form.Control.Feedback type="invalid">
+					Please choose a username.
+				</Form.Control.Feedback>
+			</InputGroup>
 
-						<Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-					</Form.Group>
-					<Form.Group as={Col} md="6" controlId="validationCustomUsername">
-						<Form.Label>Mail</Form.Label>
-						<InputGroup hasValidation>
-							<InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-							<Form.Control
-								type="text"
-								placeholder="Mail"
-								aria-describedby="inputGroupPrepend"
-								required
-							/>
-							<Form.Control.Feedback type="invalid">
-								Please choose a username.
-							</Form.Control.Feedback>
-						</InputGroup>
-					</Form.Group>
-				</Row>
-				<FloatingLabel controlId="floatingTextarea2" label="Comments">
-					<Form.Control
-						as="textarea"
-						placeholder="Leave a comment here"
-						style={{ height: '100px' }}
-					/>
-				</FloatingLabel>
-				<Button type="submit" className='my-3'>Submit form</Button>
-			</Form>
+			<Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+		</Form.Group>
+		<Form.Group as={Col} md="6" controlId="validationCustomUsername">
+			<Form.Label>Mail</Form.Label>
+			<InputGroup hasValidation>
+				<InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
+				<Form.Control
+					type="text"
+					placeholder="Mail"
+					aria-describedby="inputGroupPrepend"
+					required
+				/>
+				<Form.Control.Feedback type="invalid">
+					Please choose a username.
+				</Form.Control.Feedback>
+			</InputGroup>
+		</Form.Group>
+	</Row>
+	<FloatingLabel controlId="floatingTextarea2" label="Comments">
+		<Form.Control
+			as="textarea"
+			placeholder="Leave a comment here"
+			style={{ height: '100px' }}
+		/>
+	</FloatingLabel>
+	<Button type="submit" className='my-3'>Submit form</Button>
+</Form>
+		</div>
 
 		</>
 	);
