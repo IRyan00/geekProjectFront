@@ -9,6 +9,9 @@ import Footer from './components/partials/Footer';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import ArticleID from './pages/ArticleID'
+
+
 function App() {
   return (
     <>
@@ -20,6 +23,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/articles' element={<Articles />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/articleid' element={<ArticleID/>}/>
         </Routes>
 
         <Footer />

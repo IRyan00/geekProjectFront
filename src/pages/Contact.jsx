@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 
+
 function FormExample() {
 	const [validated, setValidated] = useState(false);
 
@@ -70,7 +71,6 @@ function FormExample() {
 	<Button type="submit" className='my-3'>Submit form</Button>
 </Form>
 		</div>
-
 		</>
 	);
 }
