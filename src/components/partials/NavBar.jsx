@@ -3,13 +3,13 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function CustomNavbar() {
 	return (
-		<Navbar className='sticky-top' bg="primary" expand="lg">
+		<Navbar className='sticky-top bg-primary' expand="lg" >
 			<Navbar.Brand href="/">
 				<img
 					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFxn-0Kp4Qgppjz51V6gjqMpW0OeBP3mmfwA&s"
 					alt="Logo"
 					height="30"
-					className="d-inline-block align-top mx-2 circle-rounded"
+					className="d-inline-block align-top mx-2 rounded-circle"
 				/>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,7 +18,8 @@ function CustomNavbar() {
 					<Nav.Link href="/">Home</Nav.Link>
 					<Nav.Link href="/about">About</Nav.Link>
 					<Nav.Link href="/articles">Articles</Nav.Link>
-					<Nav.Link href="/contact">Contact</Nav.Link>
+					<Nav.Link href="#contact">Contact</Nav.Link>
+					<Nav.Link href="/login">Login</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
