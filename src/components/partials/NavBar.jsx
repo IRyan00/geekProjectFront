@@ -14,12 +14,12 @@ function CustomNavbar() {
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
-				<Nav className="ml-auto text-center ">
-					<Nav.Link href="/">Home</Nav.Link>
-					<Nav.Link href="/about">About</Nav.Link>
-					<Nav.Link href="/articles">Articles</Nav.Link>
-					<Nav.Link href="#contact">Contact</Nav.Link>
-					<Nav.Link href="/login">Login</Nav.Link>
+				<Nav className="ml-auto text-center">
+					<Nav.Link className='text-light' href="/">Home</Nav.Link>
+					<Nav.Link className='text-light' href="/about">About</Nav.Link>
+					<Nav.Link className='text-light' href="/articles">Articles</Nav.Link>
+					<Nav.Link className='text-light' href="#contact">Contact</Nav.Link>
+					<Nav.Link className='text-light' href="/login">Login</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

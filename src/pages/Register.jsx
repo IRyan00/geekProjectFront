@@ -35,9 +35,9 @@ function FormTextExample() {
 					aria-describedby="passwordHelpBlock"
 				/>
 				<Form.Text id="passwordHelpBlock" muted>
-					Your password must be 8-20 characters long, contain letters and numbers,
-					and must not contain spaces, special characters, or emoji.
+					Your password contain only between 8-20 characters long, letters and numbers, and not spaces or special characters
 				</Form.Text>
+
 
 				<Form.Label htmlFor="inputPassword5">Confirm Password</Form.Label>
 				<Form.Control
@@ -46,7 +46,7 @@ function FormTextExample() {
 					aria-describedby="passwordHelpBlock"
 				/>
 
-				<Button type="submit" className='my-3 d-flex mx-auto' href="/">Inscription</Button>
+				<Button type="submit" className='my-3 d-flex' href="/">Inscription</Button>
 			</div >
 		</>
 	);

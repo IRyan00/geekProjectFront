@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Home.css";
-import Contact from '../../components/partials/Contact';
 import Article from '../../components/cards/AdCard';
+// import Contact from '../../components/partials/Contact';
 // import Carousel from '../../components/partials/Carousel';
 
 const Home = () => {
@@ -28,9 +28,9 @@ const Home = () => {
 					<Article />
 				</div>
 
-				<div id='contact'>
+				{/* <div id='contact'>
 					<Contact />
-				</div>
+				</div> */}
 			</div>
 		</>
 	)
