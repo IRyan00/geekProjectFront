@@ -31,6 +31,7 @@ function SimpleFooter() {
 				</Row>
 				<div id='contact'>
 					<Contact />
+
 				</div>
 				<Row>
 					<Col className="text-center">
