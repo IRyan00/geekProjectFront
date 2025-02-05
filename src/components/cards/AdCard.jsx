@@ -1,6 +1,5 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-// import ArticleID from './pages/ArticleID'
 
 function BasicExample() {
 	return (
@@ -17,7 +16,7 @@ function BasicExample() {
 					bulk of the card's content.
 				</Card.Text>
 				<div className='d-flex justify-content-center my-3'>
-					<Button variant="primary" href='pages/ArticleID.jsx'>Voir les détails</Button>
+					<Button variant="primary" href='articles/articleid'>Voir les détails</Button>
 				</div>
 			</Card.Body>
 		</Card>

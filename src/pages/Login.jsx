@@ -28,6 +28,10 @@ function FormTextExample() {
 
 				<Button type="submit" className='my-3 d-flex mx-auto'>Connexion</Button>
 
+				<Button>
+
+				</Button>
+
 				<Alert variant="secondary" dismissible className='my-5'>
 					<Alert.Heading>Je n'ai pas de compte</Alert.Heading>
 					Pour vous connecter veuillez en créer un <a href="/register" className="alert-link">ici</a>.
